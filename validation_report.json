@@ -1,0 +1,20 @@
+{
+  "input_file": "messy_contacts.csv",
+  "total_rows": 81,
+  "valid_rows": 55,
+  "invalid_rows": 26,
+  "issue_counts": {
+    "age_not_integer": 7,
+    "duplicate_customer_id": 1,
+    "invalid_email": 8,
+    "missing_country": 4,
+    "missing_name": 6
+  },
+  "validation_rules": [
+    "all required fields must be present",
+    "email must have a basic name@domain.tld shape",
+    "age must be an integer from 18 through 100",
+    "country must be a two-letter code",
+    "customer_id must be unique"
+  ]
+}

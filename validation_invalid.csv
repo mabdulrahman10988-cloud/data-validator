@@ -1,0 +1,27 @@
+customer_id,name,email,age,country,validation_errors
+U0009,Maya Shah,not-an-email,30,US,invalid_email
+U0011,Noah Reed,person11@example.com,unknown,US,age_not_integer
+U0013,,person13@example.com,55,DE,missing_name
+U0017,Maya Shah,person17@example.com,64,,missing_country
+U0018,Ethan Cole,not-an-email,42,GB,invalid_email
+U0022,Maya Shah,person22@example.com,unknown,CA,age_not_integer
+U0026,,person26@example.com,23,US,missing_name
+U0027,Noah Reed,not-an-email,42,DE,invalid_email
+U0033,Amina Yusuf,person33@example.com,unknown,PK,age_not_integer
+U0034,Noah Reed,person34@example.com,24,,missing_country
+U0036,Noah Reed,not-an-email,60,US,invalid_email
+U0039,,person39@example.com,45,PK,missing_name
+U0044,Sara Ahmed,person44@example.com,unknown,US,age_not_integer
+U0045,Maya Shah,not-an-email,52,CA,invalid_email
+U0051,Maya Shah,person51@example.com,26,,missing_country
+U0052,,person52@example.com,69,PK,missing_name
+U0054,Maya Shah,not-an-email,36,CA,invalid_email
+U0055,Maya Shah,person55@example.com,unknown,DE,age_not_integer
+U0063,Maya Shah,not-an-email,46,DE,invalid_email
+U0065,,person65@example.com,38,DE,missing_name
+U0066,Sara Ahmed,person66@example.com,unknown,CA,age_not_integer
+U0068,Sara Ahmed,person68@example.com,35,,missing_country
+U0072,Maya Shah,not-an-email,23,US,invalid_email
+U0077,Ethan Cole,person77@example.com,unknown,PK,age_not_integer
+U0078,,person78@example.com,55,DE,missing_name
+U0003,Noah Reed,person3@example.com,40,CA,duplicate_customer_id
